@@ -1,12 +1,12 @@
 ## Running the code
 For the purposes of testing the code it is reccomended that you use the following line to compile the testmain.c file:
 
-```gcc -O2 -march=native -lm testmain.c -o testmain -lm```
+```gcc -O2 -march=native -lm matrix.c -o matrix -lm```
 
 The code has been simplified as much as possible in order to make it more readable and to make testing easier. 
 Once you run that file with the command:
 
-```./testmain```
+```./matrix```
 
 You will be prompted to give arguments regarding matrix dimensions, data type, multiplication method, and whether or not you wish to print. This allows for as much custom testing as needed as opposed to giving you files with set matrices that are guaranteed to work every time. If you have any questions about how to run it, or if you run into any issues, feel free to contact D.J. Bucciero or Annie Tao through webex.
 
