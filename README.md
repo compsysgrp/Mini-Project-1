@@ -39,4 +39,6 @@ blah blah blah
 
 We expected traditional to be the slowest by far, except at perhaps low numbers, SIMD to be very quick especially at higher numbers, and block to be slower than SIMD but have the benefit that it can work on any processor. Based on our results, block multiplication (cache optimized) was far superior to the others, we are unsure if this is because we programmed the block functions effectively, or if SIMD/traditional was one inefficiently.
 
-<img src="https://cdn.discordapp.com/attachments/804497070534033428/811054540434178118/9462458a8f27f27d594fd33b5a3a206b.png" width"800">
+![image](https://cdn.discordapp.com/attachments/804497070534033428/811055551546130493/042794c93b88a5e3215759f52b315313.png)
+
+![image](https://cdn.discordapp.com/attachments/804497070534033428/811055566221738014/66a74da027d9ae59253f35d8e9e5ff5e.png)
