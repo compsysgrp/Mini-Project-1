@@ -13,13 +13,13 @@ You will be prompted to give arguments regarding matrix dimensions, data type, m
 ## Data Structure
 The "matrices" used are actually one dimensional, not two dimensional. If the desired matrix is 10x10 it would be a 1d array 100 long. The variables for rows and columns are stored so that the data can be parsed effectively and used for multiplication, printing, etc. 
 
-## multiplication functions:
-### Traditional multiplication:
-blah blah blah
-### SIMD multiplication:
-blah blah blah
+## Multiplication Functions:
+### Traditional Multiplication:
+Uses three nested "for" loops.  In the deepest loop, the values in the two inputted matrices are multipled and stored into the output matrix. The indexes of the matrices are called by using square brackets "[]".
+### SIMD Multiplication:
+Similar to the traditional multiplication, the SIMD multiplication uses three nested "for" loops. In the deepest loop, the value of the output matrix and the two input matrices are stored. The two matrices values are multipled and added to the output matrix value. This final value is than stored into the output matrix. SIMD programming is used to read, perform arithematic, and store the values. 
 ### Cache Optimized "Block" Multiplication:
-blah blah blah
+Block multiplication utiliizes two additional "for" loops and an extra value, "block size." This block size is used in incrementation of certain loops and calculating the bounds of certain loops. The block size is to be a square (N x N) and needs to be smaller than the size of any of the matrices that will be multipled. The arithematic for calculating and storing the values are the same as the traditional multiplication, but by adding the two extra loops and changing the incrementation interval and loop bounds, the run-time of the block multiplication will be shorter.
 
 
 ## Test Results
