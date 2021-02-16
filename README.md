@@ -23,7 +23,7 @@ blah blah blah
 
 
 ## Test Results
-All tests were were done using a computer that had an i7-8700k processor.
+All tests were were done using a computer that had an i7-8700k processor overclocked to 4.45Ghz.
 | Matrix Size   | Traditional int time (s) | Traditional float time (s) | SIMD int time (s) | SIMD float time (s) | Block int time (s) | block float time (s) |
 | ------------- |:------------------------:|:--------------------------:|:-----------------:|:-------------------:|:------------------:|:--------------------:|
 | 1000x1000     |.750                      |.984                        |2.171              |2.375                |1.093               |1.984                 |
